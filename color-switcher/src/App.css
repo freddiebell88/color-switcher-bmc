@@ -15,25 +15,77 @@ body,
   text-align: center;
 }
 
+.circle-container {
+  position: relative;
+  width: 400px;
+  height: 400px;
+  padding: 20px;
+  /*2.8em = 2em*1.4 (2em = half the width of a link with img, 1.4 = sqrt(2))*/
+  border: dashed 1px;
+  border-radius: 50%;
+  margin: 60px auto;
+}
+
+/* .circle-container a {
+  display: block;
+  position: absolute;
+  top: 50%; 
+  left: 50%;
+  width: 50px; 
+  height: 50px;
+  margin: -10px;
+} */
+
+/* .deg0 { transform: translate(200px); } /* 12em = half the width of the wrapper */
+/* .deg60 { transform: rotate(60deg) translate(200px) rotate(-60deg); }
+.deg120 { transform: rotate(120deg) translate(200px) rotate(-120deg); }
+.deg135 { transform: rotate(135deg) translate(200px) rotate(-135deg); }
+.deg180 { transform: translate(-200px); }
+.deg225 { transform: rotate(225deg) translate(200px) rotate(-225deg); } */
+
 button {
   padding: 10px;
   margin: 5px;
   border: 2px solid white;
   color: white;
   font-size: 20px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50% ;
 }
 
 .red {
   background-color: red;
   color: white;
+  /* transform: translate(200px); */
 }
 
 .blue {
   background-color: blue;
   color: white;
+  transform: rotate(60deg) translate(200px) rotate(-60deg);
 }
 
 .yellow {
   background-color: yellow;
   color: black;
+  transform: rotate(120deg) translate(200px) rotate(-120deg);
+}
+
+.purple {
+  background-color: purple;
+  color: white;
+  transform: rotate(180deg) translate(200px) rotate(-180deg);
+}
+
+.green {
+  background-color: green;
+  color: black;
+  transform: translate(-200px);
+}
+
+.orange {
+  background-color: orange;
+  color: black;
+  transform: rotate(300deg) translate(200px) rotate(-300deg);
 }
