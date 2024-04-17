@@ -2,6 +2,12 @@
 
 I've taken a simple React tutorial and given it a slight facelift for the 2024 Rehappening at Black Mountain College!
 
+This project was built with Create React App
+
+In the project directory, you can run:
+
+### `npm start`
+
 <!-- # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
