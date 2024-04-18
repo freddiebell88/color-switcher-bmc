@@ -21,12 +21,11 @@ body,
   height: 400px;
   padding: 20px;
   /*2.8em = 2em*1.4 (2em = half the width of a link with img, 1.4 = sqrt(2))*/
-  border: dashed 1px;
   border-radius: 50%;
   margin: 60px auto;
 }
 
-.circle-container a {
+/* .circle-container a {
   display: block;
   position: absolute;
   top: 50%; 
@@ -35,7 +34,7 @@ body,
   height: 50px;
   margin: -10px;
   
-}
+} */
 
 /* .deg0 { transform: translate(200px); } /* 12em = half the width of the wrapper */
 /* .deg60 { transform: rotate(60deg) translate(200px) rotate(-60deg); }
@@ -45,24 +44,24 @@ body,
 .deg225 { transform: rotate(225deg) translate(200px) rotate(-225deg); } */
 
 button {
-  /* padding: 10px;
-  margin: 5px; */
+  padding: 10px;
+  margin: 5px;
   border: 2px solid white;
   color: white;
   font-size: 20px;
-  /* width: 100px;
-  height: 100px; */
-  width: 20%;
-  height: 20%;
+  width: 100px;
+  height: 100px;
+  /* width: 30%;
+  height: 30%; */
   border-radius: 50% ;
 }
 
-.button-red { transform: translate(300px); } /* 12em = half the width of the wrapper */
-.button-blue { transform: rotate(60deg) translate(400px) rotate(-60deg); }
-.button-yellow { transform: rotate(120deg) translate(-100px) rotate(-120deg); }
-.button-purple { transform: rotate(180deg) translate(200px) rotate(-180deg); }
-.button-green { transform: rotate(240deg) translate(-100px) rotate(-240deg); }
-.button-orange { transform: rotate(300deg) translate(-275px) rotate(-300deg); }
+.button-red { transform: translate(280px, 20px); } /* 12em = half the width of the wrapper */
+.button-blue { transform: rotate(60deg) translate(-60px, 40px) rotate(-60deg); }
+.button-yellow { transform: rotate(120deg) translate(240px, -25px) rotate(-120deg); }
+.button-purple { transform: rotate(180deg) translate(-160px, 100px) rotate(-180deg); }
+.button-green { transform: rotate(240deg) translate(20px, -20px) rotate(-240deg); }
+.button-orange { transform: rotate(300deg) translate(-20px) rotate(-300deg); }
 
 .red {
   background-color: red;
