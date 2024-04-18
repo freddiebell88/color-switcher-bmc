@@ -1,6 +1,14 @@
 # Color Theory Guard
 
 I've taken a simple React tutorial and given it a slight facelift for the 2024 Rehappening at Black Mountain College!
+This project supplements the performance and installation "Color Theory Guard" presented by Swannatopia.
+
+From the fine folks at Swannatopia: "“Color Theory Guard” will lead participant-viewers through a series of movements within a prismatic playground and color changing landscape. We would like to create a color wheel act that radiates out to the rest of the Rehappening. Every hour, we will introduce a new playground prop, color combination exercise, and “now” age ambient tracks that will slowly transform the space into a full spectrum experience. “Color Theory Guard'' will include an array of colorful banners/backdrops, projections, an interactive color wheel, shadow puppets, flags, pompoms, jump rope, sounds, prism mascot and a compact disc of ambient radiance to “bring the rainbow home”. Our guards will guide, dance, and improvise while exploring color relativity concepts, complementary and analogous relationships and monochromatic activities. Through dazzling live performance and edu-taining multimedia presentations, we, of Swannatopia’s Experimental Art Club, will create an immersive and unforgettable experience that leaves participant-viewers yearning for a more colorful realm and life cycle.
+Influenced by: Josef Albers’ Interaction of Color, costume from Xanti Schawinski’s Spectodrama, Ani Albers’ Knots, CMYK vs RGBIV, Walk the Line and Hopscotch, Color guard and cheer squad routines, stage design as a medium, medium as message, Disney’s Fantasia, ribbon and square dancing, tambourines, “bells and whistles”, group exercise, playgrounds, flea circuses, crankys, the games “limbo” and “Twister”
+Swannatopia Collective Statement and Bio:
+Through a decade's worth of collaborative installations at ReHappening, we, of Swannatopia, have blurred the lines between viewer and participant within immersive, whimsical, thoughtful, experiences of empowerment.
+“as we defamiliarize the familiar, we share the opportunity to dream together”
+In the tradition of Black Mountain College, we believe artistic collaborations are essential to cultivate a healthy community and to maximize creative potential. We are a group of experimental artists living in and around Asheville who host a number of art shows each year in various venues. Our “Experimental Art Club” is a mutually supportive endeavor, and our practice and process are open, yet disciplined."
 
 This project was built with Create React App
 
